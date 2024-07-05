@@ -7,10 +7,6 @@ Welcome to **Arushop**, your one-stop eCommerce platform, inspired by Amazon. Ar
 1. [Features](#features)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [Screenshots](#screenshots)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
 
 ## Features
 
@@ -40,33 +36,6 @@ Welcome to **Arushop**, your one-stop eCommerce platform, inspired by Amazon. Ar
     git clone https://github.com/AruShopProject/backend.git
     cd backend
     ```
-
-2. **Install Dependencies**
-
-    ```bash
-    npm install
-    ```
-
-3. **Set Up Environment Variables**
-
-    Create a `.env` file in the root directory and add the following:
-
-    ```env
-    NODE_ENV=development
-    PORT=5000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    PAYPAL_CLIENT_ID=your_paypal_client_id
-    ```
-
-4. **Run the Application**
-
-    ```bash
-    npm run dev
-    ```
-
-    Your application should now be running on `http://localhost:5000`.
-
 ## Usage
 
 ### Browsing Products
@@ -89,77 +58,7 @@ Welcome to **Arushop**, your one-stop eCommerce platform, inspired by Amazon. Ar
 - Proceed to checkout from your cart.
 - Enter shipping details and payment information.
 - Review your order and place it.
-
-### Admin Panel
-
-- Access the admin panel to manage products, orders, and users.
-
-## Screenshots
-
-### Homepage
-
-![Homepage](screenshots/homepage.png)
-
-### Product Page
-
-![Product Page](screenshots/product-page.png)
-
-### Cart
-
-![Cart](screenshots/cart.png)
-
-### Checkout
-
-![Checkout](screenshots/checkout.png)
-
-## Contributing
-
-We welcome contributions from the community! Please follow these steps to contribute:
-
-1. **Fork the Repository**
-
-    Click on the 'Fork' button at the top right of the repository page.
-
-2. **Clone Your Fork**
-
-    ```bash
-    git clone https://github.com/yourusername/arushop.git
-    cd arushop
-    ```
-
-3. **Create a New Branch**
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-4. **Make Your Changes**
-
-    Implement your feature or fix a bug.
-
-5. **Commit and Push**
-
-    ```bash
-    git add .
-    git commit -m "Describe your feature or fix"
-    git push origin feature/your-feature-name
-    ```
-
-6. **Open a Pull Request**
-
-    Navigate to the original repository and click on 'New Pull Request'.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or support, please contact us at:
-
-- Email: support@arushop.com
-- Twitter: [@arushop](https://twitter.com/arushop)
-- GitHub: [Arushop](https://github.com/yourusername/arushop)
+- GitHub: [Arushop](https://github.com/AruShopProject/backend)
 
 ---
 
