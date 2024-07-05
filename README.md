@@ -27,9 +27,9 @@ Welcome to **Arushop**, your one-stop eCommerce platform, inspired by Amazon. Ar
 
 ### Prerequisites
 
-- Node.js
-- npm (Node Package Manager)
-- MongoDB
+- Django
+- Python
+- Postresql
 - Git
 
 ### Steps
@@ -37,8 +37,8 @@ Welcome to **Arushop**, your one-stop eCommerce platform, inspired by Amazon. Ar
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/MohammadrezaAmani/arushop.git
-    cd arushop
+    git clone https://github.com/AruShopProject/backend.git
+    cd backend
     ```
 
 2. **Install Dependencies**
